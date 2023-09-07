@@ -1,0 +1,352 @@
+body{
+    overflow-x: hidden;
+}
+
+.nav-link:hover{
+    color: #e60121;
+}
+
+.header-view{
+
+    
+    background-color: #F8F9FA;
+    /* height: 100px; */
+}
+
+.logo-style{
+    width: 9vw;
+}
+
+.info-session{
+    font-weight: 600;
+    font-size: 1vw;
+    
+}
+
+.search-icon{
+    width: 30px;
+}
+
+.carousel-section{
+    margin-top: 77px;
+}
+
+.bs-sec .sec-title {
+    font-size: 2.8vw;
+    line-height: 3rem;
+    letter-spacing: -2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 1rem;
+    margin-right: 1.2rem;
+    position: relative;
+    margin-top: 0;
+}
+
+.bs-sec .sec-title .infogrphy:before {
+    content: "";
+    width: 2.6rem;
+    height: 2.1rem;
+    transform: skew(30deg);
+    background: #e60121;
+    position: absolute;
+    right: 0;
+    top: 0.4rem;
+    left: 16.3rem;
+}
+
+/* @media(max-width: 1023px){
+    .bs-sec .sec-title .infogrphy:before{
+        top: 0;
+        righ: 0;
+        width: 1.5rem;
+        height: 1.0rem;
+    }
+} */
+
+.bs-sec .sec-title .infogrphy:after {
+    content: "";
+    width: 8.6rem;
+    height: 2.1rem;
+    transform: skew(30deg);
+    background: linear-gradient(100deg,rgba(230,1,33,.522) -61%,#fff 88%);
+    position: absolute;
+    right: 0;
+    top: 0.4rem;
+    left: 19.3rem;
+}
+
+/* @media(max-width: 1023px){
+    .bs-sec .sec-title .infogrphy:after{
+        top: 0;
+        left: 0;
+        width: 1.5rem;
+        height: 1.0rem;
+    }
+} */
+
+/* @media screen and (max-width: 576px){
+    .bs-sec .sec-title{
+        font-size: 2.vw;
+    }
+    
+} */
+
+.bs-sec .sec-desc {
+    font-size: 1.9rem;
+    line-height: 2.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #626262;
+    letter-spacing: -1px;
+}
+
+.sec-head{
+    margin-bottom: 6.5rem;
+}
+
+.bs-sec .sec-cont.typ-center {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative; */
+}
+
+
+
+
+.cont-pic{
+    display: flex;
+    align-items: start;
+
+}
+
+.cont-pic-head{
+    width: 239px;
+    height: 112px;
+}
+
+
+/*  */
+
+.card{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-style: none;
+}
+
+
+.card-title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+}
+
+.card-text{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500; 
+    font-size: 1rem;
+}
+
+
+/* .carousel-control-next-icon{
+    
+    background-color: #e9dcde;
+    border-radius: 1rem;
+    padding: 1.5rem;
+} */
+
+.visually-hidden-clas{
+    background-color: red;
+    color: blue;
+}
+
+.carousel-item{
+    max-height: 44rem;
+}
+
+.img-font{
+    font-size: 2rem;
+}
+
+
+/* SUBSCRIPTION SECTION */
+
+.subscription-section{
+    background-color: #343333;
+    padding: 7vw;
+}
+/* @media (max-width: 576px){
+    .subscribe-head{
+        width: 1vw;
+    }
+} */
+
+
+.subscription{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1023px){
+    .subscription{
+        display: block;
+        
+    }
+}
+/* @media only screen and (max-width: 1023px){
+    .sec-head.{
+        margin-bottom: 25px;
+
+    }
+} */
+
+
+.section-title{
+    font-size: 2.8rem;
+    line-height: 3rem;
+    letter-spacing: -2px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 1rem;
+    margin-right: 1.2rem;
+    position: relative;
+    margin-top: 0;
+}
+@media only screen and (max-width: 1023px){
+    .section-title{
+        font-size: 1.4rem;
+        line-height: 1rem;
+        margin-bottom: 0.5rem;
+        margin-right: 0;
+        padding-right: 6rem;
+    }
+}
+
+.section-desc{
+    font-size: 1.9rem;
+    line-height: 0.9rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    letter-spacing: -1px;
+}
+@media only screen and (max-width: 1023px){
+    .section-desc{
+        font-size: 1rem;
+    }
+}
+
+.effects{
+    position: relative;
+    padding-left: 5rem;
+}
+@media only screen and (max-width: 1023px){
+    .effects{
+        position: absolute;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 1.8rem;
+    }
+}
+
+.effects:before {
+    content: "";
+    width: 2.6vw;
+    height: 2.1vw;
+    transform: skew(30deg);
+    background: #e60121;
+    position: absolute;
+    right: 0;
+    top: 0.4rem;
+    left: 1.8rem;
+}
+@media only screen and (max-width: 1023px){
+    .effects:before{
+        top: 0;
+        left: 0;
+        width: 1.5rem;
+        height: 1.8rem;
+    }
+}
+
+.effects:after {
+    content: "";
+    width: 8.6vw;
+    height: 2.1vw;
+    transform: skew(30deg);
+    background: linear-gradient(100deg,rgba(230,1,33,.522) -61%,#fff 88%);
+    position: absolute;
+    right: 0;
+    top: 0.4rem;
+    left: 5rem;
+}
+@media only screen and (max-width: 1023px){
+    .effects:after{
+        top: 0;
+        height: 1.8rem;
+        left: 2rem;
+        width: 4rem;
+    }
+}
+
+.emailbutton{
+    position: relative;
+}
+
+.Subscribebutton{
+    position: absolute;
+    margin-left: -2rem;
+}
+
+
+/* CAROUSEL RELATIONS */
+.scroll-image{
+    position: relative;
+}
+
+.scroll-caption {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+@media only screen and (max-width: 1023px){
+    .scroll-caption{
+        position: absolute;
+        top: 0;
+        left: 0; 
+        font-size: 29px;
+    }
+}
+
+.scroll-subcaption{
+    position: absolute;
+    bottom: 50px;
+    left: 150px;
+    
+}
+
+.scroll-caption p{
+    
+    font-size: 2vw;
+}
+
+.btn-exp{
+    position: absolute;
+    bottom: 6rem;
+    left: 8.2rem;    
+    
+}
+.btn-exp:hover{
+    background-color: blue;
+}
+
+.btn-hover:hover{
+    color: red;
+    background-color: whitesmoke;
+}
